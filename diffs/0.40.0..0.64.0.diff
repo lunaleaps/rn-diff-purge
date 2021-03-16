@@ -341,11 +341,11 @@ index b49b9087f..000000000
 -    <Index />
 -  );
 -});
-diff --git a/RnDiffApp/_editorconfig b/RnDiffApp/_editorconfig
+diff --git a/RnDiffApp/.editorconfig b/RnDiffApp/.editorconfig
 new file mode 100644
 index 000000000..7c286132f
 --- /dev/null
-+++ b/RnDiffApp/_editorconfig
++++ b/RnDiffApp/.editorconfig
 @@ -0,0 +1,3 @@
 +# Windows files
 +[*.bat]
