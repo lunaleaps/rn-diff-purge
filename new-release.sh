@@ -146,21 +146,24 @@ function cleanUp () {
 }
 
 
-guardMissingArg $*
 newRelease=$1
+echo 'New release script triggered with'
+echo "$newRelease"
 
-guardExisting
+# guardMissingArg $*
 
-prepare
-generateNewReleaseBranch
-addReleaseToList
-generateDiffs
+# guardExisting
 
-generateTable
-generateReadme
+# prepare
+# generateNewReleaseBranch
+# addReleaseToList
+# generateDiffs
 
-generateBigTable
-generateGHPages
+# generateTable
+# generateReadme
 
-cleanUp
-pushMaster
+# generateBigTable
+# generateGHPages
+
+# cleanUp
+# pushMaster
